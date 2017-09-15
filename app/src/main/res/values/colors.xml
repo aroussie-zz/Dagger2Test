@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!-- Colors found on https://color.adobe.com/BMW-color-theme-1956058/ -->
+    <color name="blueBMW">#3397CA</color>
+    <color name="blueDarkBMW">#2E6A89</color>
+    <color name="greyBMW">#9BA8AF</color>
+    <color name="whiteBMW">#FFFFFF</color>
+    <color name="blackBMW">#0D0D0D</color>
+</resources>

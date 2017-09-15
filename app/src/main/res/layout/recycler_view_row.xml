@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/location_relativeLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/location_recyclerView"
+        android:textSize="@dimen/Text_secondary_size"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="@dimen/recycler_view_row_margin"
+        android:layout_marginRight="@dimen/recycler_view_row_margin"
+        android:layout_marginTop="@dimen/recycler_view_row_margin"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/address_recyclerView"
+        android:text="@string/address_recyclerView"
+        android:textSize="@dimen/Text_secondary_size"
+        android:layout_below="@id/location_recyclerView"
+        android:layout_alignStart="@id/location_recyclerView"
+        android:layout_alignEnd="@id/location_recyclerView"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/address_recyclerView"
+        android:layout_marginTop="@dimen/recycler_view_row_margin"
+        android:background="@color/greyBMW">
+
+    </View>
+
+</RelativeLayout>

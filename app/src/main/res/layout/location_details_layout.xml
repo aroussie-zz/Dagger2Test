@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/location_details_linearLayout">
+
+    <com.google.android.gms.maps.MapView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/locationDetails_mapView"
+        android:layout_weight="0.5"
+        map:cameraTargetLat="0"
+        map:cameraTargetLng="0"
+        map:cameraZoom="10"
+        map:mapType="normal" >
+
+    </com.google.android.gms.maps.MapView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_weight="0.5">
+
+        <include layout="@layout/location_details_cardview"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/cardView_layout_margin"
+            android:layout_marginRight="@dimen/cardView_layout_margin"
+            android:layout_marginBottom="@dimen/cardView_layout_margin"
+            />
+
+    </FrameLayout>
+
+</LinearLayout>

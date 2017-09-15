@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/location_details_cardView">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/location_details_arrivalTime_TextView"
+            android:text="@string/cardView_arrivalTime"
+            android:textSize="@dimen/Text_secondary_size"
+            android:textColor="@color/blackBMW"
+            android:layout_margin="@dimen/cardView_elements_margin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/location_details_location_TextView"
+            android:text="@string/cardView_location"
+            android:textColor="@color/blackBMW"
+            android:layout_below="@id/location_details_arrivalTime_TextView"
+            android:layout_alignStart="@id/location_details_arrivalTime_TextView"
+            android:textSize="@dimen/Text_primary_size"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/cardView_elements_margin"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/location_details_address_TextView"
+            android:text="@string/cardView_address"
+            android:textColor="@color/blackBMW"
+            android:layout_below="@id/location_details_location_TextView"
+            android:layout_alignStart="@id/location_details_arrivalTime_TextView"
+            android:textSize="@dimen/Text_secondary_size"
+            android:layout_marginBottom="@dimen/cardView_elements_margin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/location_details_latitude_TextView"
+            android:text="@string/cardView_latitude"
+            android:textColor="@color/blackBMW"
+            android:layout_below="@id/location_details_address_TextView"
+            android:layout_alignStart="@id/location_details_arrivalTime_TextView"
+            android:textSize="@dimen/Text_secondary_size"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/location_details_longitude_TextView"
+            android:text="@string/cardView_longitude"
+            android:textColor="@color/blackBMW"
+            android:layout_alignTop="@id/location_details_latitude_TextView"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/cardView_elements_margin"
+            android:layout_marginBottom="@dimen/cardView_elements_margin"
+            android:textSize="@dimen/Text_secondary_size"
+            />
+
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

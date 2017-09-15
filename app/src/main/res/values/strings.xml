@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BMWLocation</string>
+
+    <!-- Toolbar -->
+    <string name="toolbar_sort_name">Sort by name</string>
+    <string name="toolbar_sort_distance">Sort by distance</string>
+    <string name="toolbar_sort_time">Sort by arrival time</string>
+    <string name="toolbar_title_mainActivity">Locations</string>
+
+    <!-- RecyclerView row -->
+    <string name="address_recyclerView">Address %s</string>
+
+    <!-- Location Details CardView -->
+    <string name="cardView_arrivalTime">Arrival time: %d minutes</string>
+    <string name="cardView_location">Location: %s</string>
+    <string name="cardView_address">Address: %s</string>
+    <string name="cardView_longitude">Longitude: %.2f</string>
+    <string name="cardView_latitude">Latitude: %.2f</string>
+
+    <!-- Location details fragment -->
+    <string name="arrivalTime_happened">You should already be there !</string>
+
+    <!-- Location list -->
+    <string name="location_permission_denied">We need your location to estimate the distance between you and the locations</string>
+</resources>
